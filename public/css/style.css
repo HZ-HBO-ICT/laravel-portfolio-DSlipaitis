@@ -1,0 +1,245 @@
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5CDB95;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+}
+header li a{
+  display: block;
+  color: #05386B;
+  text-align: center;
+  padding: 32px;
+  text-decoration: none;
+  font-size: 25px;
+}
+header img {
+  float: right;
+  height: 82px;
+  width: 95px;
+}
+body {
+  background-color: #5CDB95;
+  margin: 0px;
+  }
+
+  .page_content {
+    margin-top: 100px;
+    min-height: 100vh;
+  }
+
+nav li {
+  float: left;
+}
+h1 {
+    font-size: 50px;
+    color: #05386B; 
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+h3 {
+  color: rgb(90, 40, 40);
+  font-family: 'Fira Sans', sans-serif;
+}
+p {
+    font-size: 20px;
+    color: #05386B; 
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: auto;
+    font-size: 20px;
+}
+.column {
+  
+  padding: 1px 16px;
+  width: 70%;
+}
+li {
+  font-size: 20px;
+}
+header h2 { 
+    color: #05386B;
+    padding: 1px;
+    margin: 26px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+}
+h2 {
+    color: #05386B;
+    font-style: times;
+    padding: 1px;
+    margin: 26px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+  footer{
+  background-color: #379683;
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  color: #05386B;
+  display: flex;
+  margin-top: 50px;
+  }
+footer ul{
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+}
+footer li, footer a, footer div{
+  font-family: 'Varela Round', sans-serif;
+  color: #05386B;
+  font-size: 15px;
+}
+a:link {
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #379683;
+}
+.active {
+  background-color: #EDF5E1;
+}
+table, tr, td {  
+  border: 2px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #8EE4AF;
+  color: #05386B;    
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr, td {
+  padding: 15px;
+  font-family: 'Fira Sans', sans-serif;;
+}
+th {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+td.tdinput
+{
+    border:1px solid #ddd;
+}
+.faq {
+  background-color: #8EE4AF;
+  text-align: center;
+  margin:auto;
+  width: 70%;
+}
+.blog article {
+  font-size: 22px;
+}
+.blog h2 {
+  font-size: 32px;
+}
+img.a {
+  vertical-align: baseline;
+  float: right;
+}
+img.b {
+  vertical-align: center;
+  }
+
+ol.a{
+  list-style-type: none;
+  text-align: center;
+  color: #05386B;
+  font-family: 'Varela Round', sans-serif;
+}
+* { 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  }
+  #main {
+    margin: 40px auto 10px auto;
+    min-height: 400px;
+    width: 960px;
+  }
+  
+  .frame {
+    float: left;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+  }
+  
+  .frame a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+video {
+  display: block;
+  margin: auto;
+}
+  .frame a .caption {
+    display: contents;
+    overflow: hidden;
+    padding: 1px;
+    position: absolute;
+    width: 100%;  
+    z-index: 50;
+  }
+  
+  .frame a:hover .caption {
+    top: 0;
+    transition: all 2s;
+  }
+  .frame a .caption h2 {
+    color: rgb(90 44 44);
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .frame a .caption p {
+    color: #05386B;
+    display: none;
+    line-height: 150%;
+    transition: all 0.2s;  
+    width: 90%;
+  }
+  
+  .frame a:hover .caption p {
+    display: block;
+    margin-bottom: 20px;
+    background: #EDF5E1;
+  }
+/* Go back Button on the post pages */
+.button {
+  background-color: #05386B;
+  font-size: 15px;
+  margin-left: 250px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+}
+button {
+  position: fixed;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+  font-size: large;
+}

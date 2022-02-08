@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,7 +24,7 @@
             <li><a class="active" href="/index.html">Home</a></li>
             <li><a href="profile.html">Profile</a></li>
             <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="../views/faq.blade.php">FAQ</a></li>
+            <li><a href="faq.html">FAQ</a></li>
             <li><a href="blog.html">Blog</a></li>
             <img src=logo.png>
         </ul>
@@ -36,7 +36,7 @@
     </h1>
     <div>
         <p class="column">
-            My name is Daivaras Šlipaitis, and I am 25 years old. <img class="a" src=../img/IMG_2560.JPG width="250" height="300">
+            My name is Daivaras Šlipaitis, and I am 25 years old. <img class="a" src=IMG_2560.jpg width="250" height="300">
             I have chosen to study ICT HBO-ICT programme at HZ university of applied sciences as I believe that technology
             is
             already improving the world and can even further improve it in the future.
@@ -58,7 +58,7 @@
             I moved to live in <a href=https://en.wikipedia.org/wiki/Birmingham> Birmingham</a>, United Kingdom. The move
             from small village to bigger city and even bigger after
             that and
-            traveling to different countries have completely changed the way I see the world. <img class="b" src=../img/vilnius.jpg
+            traveling to different countries have completely changed the way I see the world. <img class="b" src=vilnius.jpg
                                                                                                    width="1000" height="400">
         </p>
     </div>
