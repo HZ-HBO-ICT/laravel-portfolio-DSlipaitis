@@ -21,11 +21,11 @@
             <li>
                 <h2>Daivaras Šlipaitis Website</h2>
             </li>
-            <li><a class="active" href="/index.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="../views/faq.blade.php">FAQ</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="profile">Profile</a></li>
+            <li><a href="dashboard">Dashboard</a></li>
+            <li><a href="faq">FAQ</a></li>
+            <li><a href="blog">Blog</a></li>
             <img src=../img/logo.png>
         </ul>
     </nav>

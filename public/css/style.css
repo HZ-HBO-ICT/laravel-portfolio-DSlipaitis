@@ -1,5 +1,5 @@
 
-header ul{
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,6 +11,7 @@ header ul{
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
 }
+
 header li a{
   display: block;
   color: #05386B;
@@ -19,27 +20,30 @@ header li a{
   text-decoration: none;
   font-size: 25px;
 }
+
 header img {
   float: right;
   height: 82px;
   width: 95px;
 }
-body {
-  background-color: #5CDB95;
-  margin: 0px;
-  }
 
-  .page_content {
+body {
+    background-color: #5CDB95;
+    margin: 0px;
+}
+
+.page_content {
     margin-top: 100px;
     min-height: 100vh;
-  }
+}
 
 nav li {
-  float: left;
+    float: left;
 }
+
 h1 {
     font-size: 50px;
-    color: #05386B; 
+    color: #05386B;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
 }
@@ -49,21 +53,21 @@ h3 {
 }
 p {
     font-size: 20px;
-    color: #05386B; 
+    color: #05386B;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     font-size: 20px;
 }
 .column {
-  
+
   padding: 1px 16px;
   width: 70%;
 }
 li {
   font-size: 20px;
 }
-header h2 { 
+header h2 {
     color: #05386B;
     padding: 1px;
     margin: 26px;
@@ -107,7 +111,7 @@ li a:hover:not(.active) {
 .active {
   background-color: #EDF5E1;
 }
-table, tr, td {  
+table, tr, td {
   border: 2px solid #ddd;
   text-align: left;
 }
@@ -116,7 +120,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   background-color: #8EE4AF;
-  color: #05386B;    
+  color: #05386B;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -159,8 +163,8 @@ ol.a{
   color: #05386B;
   font-family: 'Varela Round', sans-serif;
 }
-* { 
-  -moz-box-sizing: border-box; 
+* {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   }
   #main {
@@ -168,7 +172,7 @@ ol.a{
     min-height: 400px;
     width: 960px;
   }
-  
+
   .frame {
     float: left;
     height: 250px;
@@ -176,7 +180,7 @@ ol.a{
     position: relative;
     width: 300px;
   }
-  
+
   .frame a {
     display: block;
     height: 100%;
@@ -191,10 +195,10 @@ video {
     overflow: hidden;
     padding: 1px;
     position: absolute;
-    width: 100%;  
+    width: 100%;
     z-index: 50;
   }
-  
+
   .frame a:hover .caption {
     top: 0;
     transition: all 2s;
@@ -204,15 +208,15 @@ video {
     font-size: 32px;
     margin-bottom: 20px;
   }
-  
+
   .frame a .caption p {
     color: #05386B;
     display: none;
     line-height: 150%;
-    transition: all 0.2s;  
+    transition: all 0.2s;
     width: 90%;
   }
-  
+
   .frame a:hover .caption p {
     display: block;
     margin-bottom: 20px;

@@ -13,6 +13,7 @@
 <body>
     <h1>My Blog Post</h1>
 
-    <p>{{ $post }}</p>
+{{--    <p>{{ $post }}</p>--}}
+    <p>POST</p>
 </body>
 </html>

@@ -22,9 +22,9 @@
                 <h2>Daivaras Šlipaitis Website</h2>
             </li>
             <li><a href="/">Home</a></li>
-            <li><a href="profile">Profile</a></li>
+            <li><a class="active" href="profile">Profile</a></li>
             <li><a href="dashboard">Dashboard</a></li>
-            <li><a class="active" href="faq">FAQ</a></li>
+            <li><a href="faq">FAQ</a></li>
             <li><a href="blog">Blog</a></li>
             <img src=../img/logo.png>
         </ul>
@@ -32,32 +32,32 @@
 </header>
 <main>
     <div class="page_content">
-        <article class="faq">
-            <h3>How can you print a document from your laptop at HZ?</h3>
-            <p>Follow the link: <a href="https://print.hz.nl/login.cfm?dest=index.cfm&"> Print.HZ</a> to login with your HZ
-                account. After log in you can upload your document
-                you want to print and by using your pass on any of the HZ printers you will be able to print your uploaded
-                document. </p>
-        </article>
-        <article class="faq">
-            <h3>How can you scan a document a send it to your laptop at HZ?</h3>
-            <p>In order to scan you will have to use your pass next to any of the printers at HZ. Once you scanned your pass
-                you will have an option for scanning.</p>
-        </article>
-        <article class="faq">
-            <h3>What do you need to do when you are sick / show symptoms of coronavirus?</h3>
-            <p>Inform the teachers or the Helpdesk about your situatuion and stay home to not spread the virus around.
-                You will be able to follow the lectures online via the BBB rooms, you can find on HZ Learn.</p>
-        </article>
-        <article class="faq">
-            <h3>How can you book a project space in one of the wings?</h3>
-            <p> You can do this in the Selfservice by following the link: <a
-                    href="https://print.hz.nl/login.cfm?dest=index.cfm&"> HZ Portal.</a></p>
-        </article>
-        <article class="faq">
-            <h3>What are the instructions if you want to park your car at the HZ parking lot?</h3>
-            <p>There is a parking lot at the former PEZM, which you can find "across the road.</p>
-        </article>
+        <h1>
+            My Profile
+        </h1>
+        <h2>Personal Information</h2>
+        <ol class="a">
+            <li>Full Name: Daivaras Šlipaitis</li>
+            <li>Contact number: +447565878603</li>
+            <li>Email Address:<a href=mailto: daivarasslipaitis@outlook.comsubject="HTML link">
+                    daivarasslipaitis@outlook.com</li></a>
+            <li>Age: 25</li>
+        </ol>/
+        <h2>About Me</h2>
+        <p class="column">
+            As mentioned before on the home page I have grown up in Lithuania and around 19 years old I have moved away
+            to Birmingham in United Kingdom, I have stayed there 6 years before coming to study at HZ. On my free time I
+            love to be outdoors,
+            working out or just spending time with friends. I have already got my favourite spot in Vlissingen park where I
+            go for a jog nearly every single day.
+            On other hand I am an adrenaline junkie and love some challanges, below you can see a video of me jumping from
+            17 meters height cliff in Bali, Indonesia. Additionally to that
+            I love to surf, however the surroundings to do that where not in my favour in the past, but now I am super
+            excited as I will be able to surf in Autumn and Winter months at Domburg.
+        <div>
+            <video width="620" height="420" controls src=../img/video.mp4></video>
+        </div>
+        </p>
     </div>
 </main>
 <footer>
