@@ -26,7 +26,7 @@
             <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="../views/faq.blade.php">FAQ</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <img src=logo.png>
+            <img src=../img/logo.png>
         </ul>
     </nav>
 </header>
