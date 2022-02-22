@@ -82,16 +82,14 @@
     <div class="footer-left">
         <ul>
             <li><a href="https://hz.nl/en/study-programmes/it">Course and Examination Regulations</a></li>
-            <li><a href="https://hz.nl/uploads/documents/Regelingen/EN/OERS/Uitvoeringsregeling-HZ-OER-IBMS-English.pdf">The
-                    Implementation Regulations</a></li>
+            <li><a href="https://hz.nl/uploads/documents/Regelingen/EN/OERS/Uitvoeringsregeling-HZ-OER-IBMS-English.pdf">The Implementation Regulations</a></li>
             <li><a href="https://hz.nl/en/lectureships/onderwijsexcellentie">This Learn Environment</a></li>
         </ul>
     </div>
     <div class="footer-right">
         <ul>
             <li><a
-                    href="https://teams.microsoft.com/l/channel/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/General?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams
-                    Environment </a>
+                    href="https://teams.microsoft.com/l/channel/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/General?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">Teams Environment </a>
             <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus">MyHZ Study Progress </a>
             <li><a href="https://github.com/DSlipaitis">Github Environment</a>
         </ul>

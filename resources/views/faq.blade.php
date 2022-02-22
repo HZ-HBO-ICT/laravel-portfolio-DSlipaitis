@@ -31,34 +31,44 @@
     </nav>
 </header>
 <main>
-    <div class="page_content">
-        <article class="faq">
-            <h3>How can you print a document from your laptop at HZ?</h3>
-            <p>Follow the link: <a href="https://print.hz.nl/login.cfm?dest=index.cfm&"> Print.HZ</a> to login with your HZ
-                account. After log in you can upload your document
-                you want to print and by using your pass on any of the HZ printers you will be able to print your uploaded
-                document. </p>
-        </article>
-        <article class="faq">
-            <h3>How can you scan a document a send it to your laptop at HZ?</h3>
-            <p>In order to scan you will have to use your pass next to any of the printers at HZ. Once you scanned your pass
-                you will have an option for scanning.</p>
-        </article>
-        <article class="faq">
-            <h3>What do you need to do when you are sick / show symptoms of coronavirus?</h3>
-            <p>Inform the teachers or the Helpdesk about your situatuion and stay home to not spread the virus around.
-                You will be able to follow the lectures online via the BBB rooms, you can find on HZ Learn.</p>
-        </article>
-        <article class="faq">
-            <h3>How can you book a project space in one of the wings?</h3>
-            <p> You can do this in the Selfservice by following the link: <a
-                    href="https://print.hz.nl/login.cfm?dest=index.cfm&"> HZ Portal.</a></p>
-        </article>
-        <article class="faq">
-            <h3>What are the instructions if you want to park your car at the HZ parking lot?</h3>
-            <p>There is a parking lot at the former PEZM, which you can find "across the road.</p>
-        </article>
-    </div>
+    <ul>
+        @foreach($faqs as $faq)
+            <div class="page_content">
+                <article class="faq">
+                    <h3>{{ $faq->question}}</h3>
+                    <p>{{ $faq->answer}}</p>
+                </article>
+            </div>
+        @endforeach
+    </ul>
+{{--    <div class="page_content">--}}
+{{--        <article class="faq">--}}
+{{--            <h3>How can you print a document from your laptop at HZ?</h3>--}}
+{{--            <p>Follow the link: <a href="https://print.hz.nl/login.cfm?dest=index.cfm&"> Print.HZ</a> to login with your HZ--}}
+{{--                account. After log in you can upload your document--}}
+{{--                you want to print and by using your pass on any of the HZ printers you will be able to print your uploaded--}}
+{{--                document. </p>--}}
+{{--        </article>--}}
+{{--        <article class="faq">--}}
+{{--            <h3>How can you scan a document a send it to your laptop at HZ?</h3>--}}
+{{--            <p>In order to scan you will have to use your pass next to any of the printers at HZ. Once you scanned your pass--}}
+{{--                you will have an option for scanning.</p>--}}
+{{--        </article>--}}
+{{--        <article class="faq">--}}
+{{--            <h3>What do you need to do when you are sick / show symptoms of coronavirus?</h3>--}}
+{{--            <p>Inform the teachers or the Helpdesk about your situatuion and stay home to not spread the virus around.--}}
+{{--                You will be able to follow the lectures online via the BBB rooms, you can find on HZ Learn.</p>--}}
+{{--        </article>--}}
+{{--        <article class="faq">--}}
+{{--            <h3>How can you book a project space in one of the wings?</h3>--}}
+{{--            <p> You can do this in the Selfservice by following the link: <a--}}
+{{--                    href="https://print.hz.nl/login.cfm?dest=index.cfm&"> HZ Portal.</a></p>--}}
+{{--        </article>--}}
+{{--        <article class="faq">--}}
+{{--            <h3>What are the instructions if you want to park your car at the HZ parking lot?</h3>--}}
+{{--            <p>There is a parking lot at the former PEZM, which you can find "across the road.</p>--}}
+{{--        </article>--}}
+{{--    </div>--}}
 </main>
 <footer>
     <div class="footer-left">
