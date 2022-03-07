@@ -27,9 +27,11 @@ Route::get('/post', [WelcomeController::class, 'show']);
 Route::get('/blog', [BlogController::class, 'show']);
 Route::get('/profile', [ProfileController::class, 'show']);
 Route::get('/dashboard', [DashboardController::class, 'show']);
-Route::get('/my-study-choice', [BlogPageController::class, 'show']);
-Route::get('/data-science-company', [DataScienceCompanyController::class, 'show']);
-Route::get('/programming-experience', [ProgrammingExperienceController::class, 'show']);
+//Route::get('/my-study-choice', [BlogPageController::class, 'show']);
+//Route::get('/data-science-company', [DataScienceCompanyController::class, 'show']);
+//Route::get('/programming-experience', [ProgrammingExperienceController::class, 'show']);
+Route::get('articles/{article}', [\App\Http\Controllers\ArticleController::class, 'show']);
+
 
 
 

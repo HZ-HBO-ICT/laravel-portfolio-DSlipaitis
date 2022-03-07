@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
-
 use Illuminate\Http\Request;
 
-class WelcomeController extends Controller
+class ArticleController extends Controller
 {
     /**
-     * Function to load Index page.
+     * @param $articleId
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-    public function show()
-    {
-        return view('welcome');
+    public function show($articleId){
+        return view('article', [
+            'article' => Article::find($articleId)
+        ]);
     }
 }
