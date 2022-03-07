@@ -4,11 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\BlogPageController;
-use App\Http\Controllers\DataScienceCompanyController;
-use App\Http\Controllers\ProgrammingExperienceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,17 +16,31 @@ use App\Http\Controllers\ProgrammingExperienceController;
 |
 */
 
-Route::get('/', [WelcomeController::class, 'show']);
-Route::get('/faq', [FaqController::class, 'show']);
-Route::get('/post', [WelcomeController::class, 'show']);
-Route::get('/blog', [BlogController::class, 'show']);
-Route::get('/profile', [ProfileController::class, 'show']);
-Route::get('/dashboard', [DashboardController::class, 'show']);
-//Route::get('/my-study-choice', [BlogPageController::class, 'show']);
-//Route::get('/data-science-company', [DataScienceCompanyController::class, 'show']);
-//Route::get('/programming-experience', [ProgrammingExperienceController::class, 'show']);
-Route::get('articles/{article}', [\App\Http\Controllers\ArticleController::class, 'show']);
 
+Route::resources([
+    'blog' => BlogController::class,
+
+]);
+
+
+//Route::get('/blog', [BlogController::class, 'index']);
+//
+//Route::get('/blog/create', [BlogController::class, 'create']);
+//Route::post('/blog', [BlogController::class, 'store']);
+//
+//Route::get('/blog/{id}/edit', [BlogController::class, 'edit']);
+//Route::put('/blog/{id}',[BlogController::class, 'update']);
+//
+//Route::delete('/blog/{id}', [BlogController::class, 'destroy']);
+//
+//
+//Route::get('/blog/{id}', [BlogController::class,'show']);
+
+Route::get('/', function (){
+    return redirect('/welcome');
+});
+
+Route::get('/{page}', [WelcomeController::class, 'show']);
 
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('../css/style.css')}}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,11 +21,11 @@
             <li>
                 <h2>Daivaras Šlipaitis Website</h2>
             </li>
-            <li><a class="{{ Request::path() === '/' ? 'active' : '' }}" href="/">Home</a></li>
+            <li><a class="{{ Request::path() === '/welcome' ? 'active' : '' }}" href="/">Home</a></li>
             <li><a class="{{ Request::path() === 'profile' ? 'active' : '' }}" href="profile">Profile</a></li>
             <li><a class="{{ Request::path() === 'dashboard' ? 'active' : '' }}" href="dashboard">Dashboard</a></li>
             <li><a class="{{ Request::path() === 'faq' ? 'active' : '' }}" href="faq">FAQ</a></li>
-            <li><a class="{{ Request::path() === 'blog' ? 'active' : '' }}" href="blog">Blog</a></li>
+            <li><a class="{{ Request::path() === 'index' ? 'active' : '' }}" href="blog">Blog</a></li>
             <img src=../img/logo.png>
         </ul>
     </nav>
